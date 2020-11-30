@@ -1,0 +1,247 @@
+*{
+    overflow:auto;
+}
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* main header for mobile first aproach */
+
+img{
+    max-width:90% ;
+    margin: 10px 10px;
+}
+#profile-image{
+    width:60%;
+    margin: 20px 60px;
+}
+footer li{
+    display: none;
+}
+.profile-name,div.top,footer nav{
+    display: inline;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+.profile-name{
+    margin-right:100px;
+
+}
+div a, nav a, footer a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+nav a{
+    font-weight: bold;
+    
+    
+}
+.main-nav li{
+    margin-bottom: 20px;
+}
+
+#profile-name {
+    display: inline-block;
+    margin-left: 60px;
+}
+.homenav, .contactnav{
+    margin-left: 70px;
+
+}
+.portfolio{
+    margin-left: 65px;
+
+}
+p{
+    text-align: center;
+}
+#portfolio,h2{
+    font-size: 16px;
+    text-align: center;
+
+}
+.contact {
+    margin:0 10px;
+
+}
+.contact h2{
+    margin-bottom: -10px;
+    margin-top: 50px;
+    font-size: 15px;
+    
+}
+body{
+    font-size:14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* @media 1024px*/
+@media(min-width:1024px){
+.main-nav li,#profile-name,header ul, nav{
+    display: inline;
+   
+}
+header{
+    padding:20px 0 30px 0 ;
+    
+}
+header ul{
+    display: inline;
+            padding: 0 0px 0 200px;
+            font-weight: bold;
+            margin: 0 10px 0 60px;
+}
+.page, .mark, .map,.photo{
+    float: left;
+    width:33%;}
+    .travel, .calc{
+        float: right;
+        width: 33%;
+    }
+    p{
+        font-size: 20px;
+    }
+    #profile-image{
+        float: right;
+        width: 42%;
+        margin-right: 30px;
+
+    }
+    .intro-p{
+        float:left;
+        width: 42%;
+        text-align:left ;
+        margin-left: 30px;
+    }
+
+.contact{
+    width: 60%;
+    margin:0 180px;
+}
+h2, #porfolio{
+    font-size:24px;
+}
+.top{
+    display:none;
+}
+footer li,.profile-name, footer ul{
+    display: inline;
+
+
+}
+footer li{
+    padding:0 2px;
+}
+
+
+
+footer ul{
+    display: inline;
+    padding: 0 0px 0 200px;
+    font-weight: bold;
+    margin: 0 10px 0 200px;
+}
+.profile-name{
+    font-size: 16px;}
+
+}
+/* @media 768px */
+@media(min-width:768px) and (max-width:900px){
+    #profile-name{
+        display: block;
+        margin-left: 250px;
+        margin-bottom: 20px;
+        margin-top:30px;
+        font-size: 19px;
+    }
+    .main-nav li{
+        display: inline-block;
+        margin: 0 10px;
+        
+       
+        
+    }
+    .main-nav{
+        margin-left:175px;
+        font-size: 18px;
+        
+    }
+
+    #profile-image{
+        float: right;
+        width: 42%;
+        margin-right: 30px;
+
+    }
+    .intro-p{
+        float:left;
+        width: 42%;
+        text-align:left ;
+        margin-left: 30px;
+    }
+    p{
+        font-size: 17px;
+    }
+    .page,.map,.calc{
+        float: right;
+        width: 48%;
+    }
+    .mark, .travel,.photo{
+        float: left;
+        width: 48%;
+    }
+    #portfolio,h2, #contact h2 {
+        font-size: 20px;
+        text-align: center;}
+        #portfolio{
+            margin-bottom:40px;
+        }
+        .top{
+            display:none;
+        }
+        footer li,.profile-name, footer ul{
+            display: inline;
+        
+    
+        }
+        footer li{
+            padding:0 2px;
+        }
+       
+    
+        
+        footer ul{
+            display: inline;
+            padding: 0 0px 0 200px;
+            font-weight: bold;
+            margin: 0 10px 0 60px;
+        }
+        .profile-name{
+            font-size: 16px;
+        }
+        .contact p{
+            width: 70%;
+            margin:0 80px;
+        
+
+    
+        }
+
+       
+        
+        
+       
+    
+}
