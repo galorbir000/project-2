@@ -7,7 +7,12 @@
 }
 
 /* main header for mobile first aproach */
-
+main{
+    width: 97%;
+    /* border: solid beige 9px; */
+    margin: 0 10px;
+    /* background: rgba(178,219,221,.65); */
+}
 img{
     max-width:90% ;
     margin: 10px 10px;
@@ -45,7 +50,7 @@ nav a{
 
 #profile-name {
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 90px;
 }
 .homenav, .contactnav{
     margin-left: 70px;
@@ -59,22 +64,23 @@ p{
     text-align: center;
 }
 #portfolio,h2{
-    font-size: 16px;
+    font-size: 1em;
     text-align: center;
-
 }
 .contact {
+    background: #edeff0;
+    background: #edeff0;
+    /* background-size: cover; */
     margin:0 10px;
-
+    /* background: cadetblue; */
 }
 .contact h2{
     margin-bottom: -10px;
     margin-top: 50px;
-    font-size: 15px;
-    
+    font-size: 1em;
 }
 body{
-    font-size:14px;
+    font-size: 14px;
 }
 
 
@@ -93,15 +99,23 @@ body{
     display: inline;
    
 }
+#profile-name{
+    font-size:1.4rem
+}
 header{
-    padding:20px 0 30px 0 ;
-    
+    padding:20px 0 30px 0;
+    border: solid;
+    background: #eee;
 }
 header ul{
     display: inline;
             padding: 0 0px 0 200px;
             font-weight: bold;
             margin: 0 10px 0 60px;
+}
+header li{
+    font-size: 14px;
+    margin-right:0;
 }
 .page, .mark, .map,.photo{
     float: left;
@@ -158,13 +172,13 @@ footer ul{
 
 }
 /* @media 768px */
-@media(min-width:768px) and (max-width:900px){
+@media(min-width:768px) and (max-width:1000px){
     #profile-name{
         display: block;
-        margin-left: 250px;
+        margin-left: 280px;
         margin-bottom: 20px;
         margin-top:30px;
-        font-size: 19px;
+        font-size: 20px;
     }
     .main-nav li{
         display: inline-block;
@@ -175,8 +189,7 @@ footer ul{
     }
     .main-nav{
         margin-left:175px;
-        font-size: 18px;
-        
+        font-size: 17px;
     }
 
     #profile-image{
@@ -188,11 +201,11 @@ footer ul{
     .intro-p{
         float:left;
         width: 42%;
-        text-align:left ;
-        margin-left: 30px;
+        text-align:left;
+        margin-left: 25px;
     }
     p{
-        font-size: 17px;
+        font-size: 1rem;
     }
     .page,.map,.calc{
         float: right;
@@ -204,7 +217,10 @@ footer ul{
     }
     #portfolio,h2, #contact h2 {
         font-size: 20px;
-        text-align: center;}
+        text-align: center;
+        margin-bottom: 30px;
+        margin-left: -50px;
+        }
         #portfolio{
             margin-bottom:40px;
         }
@@ -238,6 +254,18 @@ footer ul{
 
     
         }
+        header.main-header {
+            background: #eee;
+            border: solid;
+        }
+        
+        .contact p {
+            margin-bottom: 15px;
+        }
+        
+        footer {
+            border: solid;
+        }
 
        
         
@@ -245,3 +273,9 @@ footer ul{
        
     
 }
+
+       
+        
+        
+       
+    
